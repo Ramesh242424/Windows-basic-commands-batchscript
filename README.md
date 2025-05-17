@@ -33,8 +33,7 @@ Create a directory named "MyLab" on the desktop.
 ```
 mkdir %userprofile%\Desktop\MyLab
 ```
-
-![ex8_1](https://github.com/user-attachments/assets/2a74a29c-349c-47e2-9ebc-a844290977f2)
+![1_mkdir](https://github.com/user-attachments/assets/b2c97dd3-0863-4481-8a62-027ad75b56f0)
 
 
 Change to the "MyLab" directory and create an empty text file named "MyFile.txt" inside it.
@@ -45,14 +44,11 @@ Change to the "MyLab" directory and create an empty text file named "MyFile.txt"
 ```
 cd %userprofile%\Desktop\MyLab
 ```
-![ex8_2](https://github.com/user-attachments/assets/7ffcaa76-350c-4f41-8e6f-5ca348e720c0)
+![2_cd](https://github.com/user-attachments/assets/4749e48a-d6c2-465c-b66c-467b535e741c)
 
 
-```
 type nul > MyFile.txt
-```
-
-![ex8_3](https://github.com/user-attachments/assets/6b96d213-fd30-41ab-a20b-f21d3b4f60f7)
+![3_myfile](https://github.com/user-attachments/assets/264f09a9-9ab1-4319-8ffb-087580360d88)
 
 
 List the contents of the "MyLab" directory.
@@ -63,9 +59,7 @@ List the contents of the "MyLab" directory.
 ```
 dir %userprofile%\Desktop\MyLab
 ```
-
-![ex8_4](https://github.com/user-attachments/assets/3d46b18d-ff34-4150-8f2f-129750e157ec)
-
+![4_dir](https://github.com/user-attachments/assets/8a095fc7-fb1e-4b82-9dff-46ed48ac79c9)
 
 Copy "MyFile.txt" to a new folder named "Backup" on the desktop.
 
@@ -74,16 +68,11 @@ Copy "MyFile.txt" to a new folder named "Backup" on the desktop.
 ```
 mkdir %userprofile%\Desktop\Backup
 ```
+![5_backup](https://github.com/user-attachments/assets/40881217-36a6-4c3b-9a98-084c1d4f06b7)
 
-![ex8_5](https://github.com/user-attachments/assets/edaf0b58-97d1-4360-a59f-618d341c2f4a)
-
-
-```
 copy MyFile.txt %userprofile%\Desktop\Backup
-```
 
-![ex8_6](https://github.com/user-attachments/assets/e48ec061-4490-46a2-a025-3d4ef660ccd8)
-
+![6_copy](https://github.com/user-attachments/assets/15c04a42-8b5e-4005-a4d6-eefff8a529c2)
 
 Move the "MyLab" directory to the "Documents" folder.
 
@@ -92,12 +81,9 @@ Move the "MyLab" directory to the "Documents" folder.
 ```
 mkdir %userprofile%\Desktop\Documents
 ```
-```
 move MyLab Documents
-```
 
-![ex8_7](https://github.com/user-attachments/assets/65a049fa-474f-4ace-b241-14dd73d36696)
-
+![9_modified batch1](https://github.com/user-attachments/assets/6db49bc8-0724-45f1-a9f3-ff9ef8d5ffbf)
 
 ## Exercise 2: Advanced Batch Scripting
 Create a batch script named "BackupScript.bat" that creates a backup of files with the ".docx" extension from the "Documents" folder to a new folder named "DocBackup" on the desktop.
@@ -113,8 +99,7 @@ echo Backup completed successfully!
 
 ## OUTPUT
 
-![ex8_8](https://github.com/user-attachments/assets/2d4f05ac-265c-4d53-bd73-81bad6905d34)
-
+![10_batch1](https://github.com/user-attachments/assets/af5e3830-2b8c-465d-9ccb-b6c15b159502)
 
 ## COMMAND
 ```
@@ -126,7 +111,7 @@ echo Backup completed successfully!
 ```
 ## OUTPUT
 
-![image](https://github.com/user-attachments/assets/bf63b7f0-86ba-40ca-adc3-3711f05eb336)
+![11_modified batch1](https://github.com/user-attachments/assets/db602c4e-116e-4c0c-84d3-9e750b2d6ebe)
 
 # RESULT:
 The commands/batch files are executed successfully.
